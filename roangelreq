@@ -1,0 +1,121 @@
+#roangel {
+  position: relative;
+  box-sizing: border-box;
+  width: 500px;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid var(--gray);
+  background-image: linear-gradient(
+      to bottom right,
+      var(--backgradient),
+      transparent
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23a8a7ab' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-blend-mode: multiply;
+  color: var(--darkgray);
+}
+
+#roangel .header {
+  font-family: var(--display);
+  font-size: 20px;
+  text-transform: lowercase;
+  margin-bottom: 30px;
+}
+
+#roangel .body {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+#roangel .about {
+  font-family: var(--display);
+  font-size: 20px;
+  align-self: flex-end;
+  margin-right: 60px;
+}
+
+#roangel .body1 {
+  font-family: var(--bodytext);
+  font-size: 12px;
+  text-align: justify;
+}
+
+#roangel .charcontainer {
+}
+
+#roangel .charbox {
+  padding: 20px 0px 20px 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#roangel .charimg {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+#roangel .charimg img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid transparent;
+  box-shadow: 5px 5px 1px 0px var(--gray);
+}
+
+#roangel .chartext {
+  height: 80px;
+  overflow-y: scroll;
+  font-family: var(--bodytext);
+  font-size: 11px;
+  text-align: justify;
+  background-color: var(--gray);
+  padding: 15px;
+  border: 10px solid transparent;
+}
+
+#roangel .chartext span {
+  font-family: var(--display);
+  font-size: 15px;
+}
+
+#roangel .chartext::-webkit-scrollbar {
+  width: 11px;
+}
+#roangel .chartext {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+#roangel .chartext::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+#roangel .chartext::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+#roangel a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+#roangel b {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: var(--darkgray);
+  border-bottom: 1px solid var(--backgradient);
+}
+
+#roangel i {
+  font-family: var(--display);
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: lowercase;
+  color: var(--darkgray);
+}

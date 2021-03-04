@@ -1,0 +1,103 @@
+#rose-superone {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 0px 0px 1px #eee;
+  box-sizing: border-box;
+  border: 10px solid #ffffff;
+  padding-right: 10px;
+  overflow-y: scroll;
+  position: relative;
+  background:var(--image) center;
+  background-size:cover;
+  background-clip:padding-box;
+}
+
+.rosescroll {
+  scrollbar-width: thin;
+  scrollbar-color: #eeeeee;
+}
+
+.rosescroll::-webkit-scrollbar {
+  width: 5px;
+}
+.rosescroll::-webkit-scrollbar-track {
+  width: 1px;
+  background: #fff;
+}
+
+.rosescroll::-webkit-scrollbar-thumb {
+  background: var(--image);
+  border: 2px solid #fff;
+}
+
+#rose-superone .rose-superone-title {
+  margin-right:-10px;
+  height: 200px;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 50px;
+  font-style: oblique;
+  text-shadow: none;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  mix-blend-mode:screen;
+  text-transform: lowercase;
+  background:white;
+}
+
+#rose-superone .rose-superone-bigimg {
+  height: calc(500px - 220px);
+  border-radius:var(--brdrad);
+  box-shadow:0px 0px 0px 15px white;
+}
+
+#rose-superone .rose-superone-body {
+  height: calc(500px - 220px - 40px);
+  overflow-y: scroll;
+  font-family: var(--body);
+  font-size: 12px;
+  line-height: 1.5em;
+  padding-right: 25px;
+  text-align: justify;
+  border:25px solid transparent;
+  box-shadow:0px 0px 0px 15px white;
+}
+
+#rose-superone .rose-superone-body span {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 900;
+  font-style: oblique;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+#rose-superone .rose-superone-body .rose-emph {
+  font-family: var(--body);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.rose-brdrad {
+  border-radius: var(--brdrad);
+}
+
+#rose-superone .rose-lightver {
+  color: #292929;
+  text-shadow: 0px 0px 3px #ffffff80;
+  background-color: #ffffff90;
+}
+
+#rose-superone .rose-darkver {
+  color: #ffffff;
+  text-shadow: 0px 0px 3px #29292980;
+  background-color: #00000050;
+}

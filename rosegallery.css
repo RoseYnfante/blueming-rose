@@ -1,0 +1,109 @@
+#rosezengall {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 65, 83, 1) 0%,
+    rgba(121, 89, 50, 1) 50%,
+    rgba(237, 114, 49, 1) 100%
+  );
+  width: 500px;
+  margin: auto;
+  font-family: var(--bodytext);
+  font-size: 12px;
+  text-transform: lowercase;
+  text-align: justify;
+  padding: 40px;
+  box-sizing: border-box;
+
+  --display: "Space Mono", monospace;
+  --bodytext: "Space Mono", monospace;
+  --bodycolor: #333;
+}
+
+.rose-accordion {
+  margin: 40px auto;
+}
+
+.rose-accordion .item {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.rose-accordion .header {
+  padding: 15px 20px;
+  cursor: pointer;
+  border-top: 2px solid #ffffff;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.rose-accordion .header span {
+  margin: 0;
+}
+
+.rose-accordion .content {
+  padding: 0 20px;
+  font-size: 11px;
+  color: #ffffff;
+  line-height: 20px;
+  max-height: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.rose-accordion .item.open .content {
+  padding: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+#rosezengall .title {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  margin: 10px 50px;
+}
+
+#rosezengall .subtitle {
+  font-family: var(--bodytext);
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: lowercase;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rose-link {
+  background-color: #ffffff30;
+  padding: 0px 10px;
+  margin-bottom: 1px;
+}
+
+.rose-linktitle {
+  text-transform: uppercase;
+}
+
+.rose-linktitle a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rose-linktags {
+  color: #eee;
+}
+
+.rose-nctimg {
+  width: calc(500px - 80px);
+  height: 200px;
+  background-image: url("https://pbs.twimg.com/media/Eih8sOQU8AIdzqY?format=jpg&name=large");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0) contrast(1.5);
+  mix-blend-mode: screen;
+}

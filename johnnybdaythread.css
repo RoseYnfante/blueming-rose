@@ -1,0 +1,12 @@
+    .jsun-cont {position: relative; width: 400px; min-height: 400px; z-index: 100; margin: auto; margin-top: 20px; margin-bottom: 0px; overflow: hidden; display: flex; flex-flow: column nowrap; align-items: center; justify-content: center; box-sizing: border-box;}
+    .jsun1 {position: absolute; top: -20%; left: -20%; width: 200px; height: 200px; z-index: 50; border-radius: 50%;}
+    .jsun2 {position: absolute; bottom: -10%; right: -10%; width: 100px; height: 100px; z-index: 50; border-radius: 50%;}
+    .jsun3 {position: absolute; top: 50%; left: -30%; width: 100px; height: 100px; z-index: 50; border-radius: 50%;}
+    .jsun-lyrics {position: relative; z-index: 51; margin: 0px 30px 50px 30px; border-radius: 50%; font-style: oblique; text-align: center; padding: 30px; mix-blend-mode: multiply;}
+    .jsun-lyrics:before {content: " "; position: absolute; top: 20px; left: 0; width: 100%; height: 100%; border-radius: 50%; mix-blend-mode: multiply;}
+    .jsun-img {position: relative; height: 200px; width: 150px; border-radius: 50%; background-position: center; background-size: cover; margin-bottom: 50px; outline: 10px solid transparent; mix-blend-mode: multiply; filter: brightness(120%);}
+    .jsun-word {position: absolute; top: 230px; font-size: 60px; -webkit-text-fill-color: #eeeeee80; -webkit-text-stroke-width: 1px; z-index: 48;}
+    .jsun-text {position: relative; text-align: justify; color: #333; border: 30px solid transparent; height: 400px; margin: 0px 40px; column-count: 2; column-width: 200px; overflow: auto; padding-bottom: 25px; mix-blend-mode: multiply; z-index: 52;}
+    .jsun-text p:last-child {margin-block-end: 0em;}
+    .jsun-text a {background: #eeeeee50; color: #333; text-transform: uppercase; font-weight: 700; font-size: 9px; padding: 5px; letter-spacing: 1px; text-decoration: none; margin-right: 5px;}
+    .jsun-line {width: 1px; min-height: 40px; mix-blend-mode: multiply;}

@@ -1,0 +1,104 @@
+#rose-puzzle {
+  box-sizing: border-box;
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #eee;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23a8a7ab' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#rose-puzzle .puzzle-image1 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#rose-puzzle .puzzle-headimg:first-child {
+  filter: grayscale(1);
+  opacity: 0.5;
+  z-index: 9;
+}
+
+#rose-puzzle .puzzle-headimg:last-child {
+  filter: grayscale(1);
+  opacity: 0.5;
+  z-index: 9;
+}
+
+#rose-puzzle .puzzle-headimg:nth-child(2) {
+  z-index: 10;
+}
+
+#rose-puzzle .puzzle-headimg {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: -10px;
+}
+
+#rose-puzzle .puzzle-head {
+  font-family: var(--korean);
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#rose-puzzle .puzzle-head span {
+  background-image: linear-gradient(to top, var(--accent) 50%, transparent 50%);
+}
+
+#rose-puzzle .puzzle-body {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+  font-family: var(--body);
+  font-size: 13px;
+  text-align: justify;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#rose-puzzle .puzzle-body b {
+  font-weight: 700;
+  background-color: var(--accent);
+}
+
+#rose-puzzle .puzzle-body i {
+  background-image: linear-gradient(to top, var(--accent) 50%, transparent 50%);
+}
+
+#rose-puzzle .puzzle-tagnotes {
+  line-height: 20px;
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+  font-family: var(--body);
+  font-size: 10px;
+  text-align: justify;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+#rose-puzzle .puzzle-tagnotes a,
+#rose-puzzle .puzzle-tagnotes span {
+  color: #333;
+  text-decoration: none;
+  background-color: var(--accent);
+  font-weight: 400;
+  font-style: italic;
+}
+
+#rose-puzzle .puzzle-tagnotes a:before {
+  content: "#";
+}
+
+#rose-puzzle .puzzle-tagnotes span:before {
+  content: "#";
+}

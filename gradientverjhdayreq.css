@@ -1,0 +1,18 @@
+    #gradientver .jjh-cont {width: 500px; padding-bottom: 20px; margin: 50px auto; box-sizing: border-box; background: var(--bg); color: var(--lines);}
+    #gradientver .jjh-cont1 {margin: 20px 20px 0px 20px; border: 1px solid var(--lines);}
+    #gradientver .jjh-bigimage {height: 200px; background-size: cover; background-position: center; filter: grayscale(1); opacity: 0.7;}
+    #gradientver .jjh-shorttxt {padding: 20px; display: flex; justify-content: center; align-items: center; border-bottom: 1px solid var(--lines); font: 700 25px var(--titlefont); text-transform: uppercase;}
+    #gradientver .jjh-bigdesc {padding: 40px; border-bottom: 1px solid var(--lines); text-align: justify; font: 400 12px var(--titlefont);}
+    #gradientver .jjh-bigdesc a, #gradientver .jjh-charcont a {text-decoration: none; text-transform: uppercase; font-style: italic; font-weight: 700; background: linear-gradient(to top, var(--linkbg) 50%, transparent 50%); color: var(--lines);}
+    #gradientver .jjh-char-title {padding: 20px; display: flex; justify-content: center; align-items: center; border-bottom: 1px solid var(--lines); font: 700 15px var(--titlefont); text-transform: uppercase;}
+
+    #gradientver .jjh-charcont {border-bottom: 1px solid var(--lines);}
+    #gradientver .jjh-charcont:last-child {border-bottom: 0px;}
+    #gradientver .jjh-char-detbox {display: flex; flex-flow: row nowrap; border-bottom: 1px solid var(--lines); font: 400 12px var(--titlefont); text-transform: uppercase;}
+    #gradientver .jjh-char-detbox1 {flex: 1; padding: 10px; display: flex; justify-content: center; align-items: center;}
+    #gradientver .jjh-char-desc {display: flex; flex-flow: row nowrap;}
+    #gradientver .jjh-char-img {height: 100px; width: 100px; border-right: 1px solid var(--lines); padding: 20px;}
+    #gradientver .jjh-char-img img {height: 100%; width: 100%; object-fit: cover; object-position: center; filter: grayscale(1); opacity: 0.7;}
+    #gradientver .jjh-char-descbox {flex: 1; height: 100px; border: 20px solid transparent; padding-right: 10px; text-align: justify; overflow: auto; font: 400 12px var(--titlefont);}
+    #gradientver .jjh-char-descbox::-webkit-scrollbar { width:1px; height:0px; background: transparent; border-left:10px solid transparent; z-index:9999; border-radius: 10px}
+	#gradientver .jjh-char-descbox::-webkit-scrollbar-thumb {background: var(--lines) !important; border-radius: 10px; border: 4px solid var(--lines);}

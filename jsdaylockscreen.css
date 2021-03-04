@@ -1,0 +1,24 @@
+.js_cont {position: relative; z-index: 100; width: 300px; height: 550px; border-radius: 25px; margin: auto; background-size: cover; background-position: center; box-sizing: border-box; font-family: Roboto, sans-serif; font-weight: 300; display: flex; flex-flow: column nowrap;}
+
+.js_speaker {padding: 10px; width: 50%; display: flex; justify-content: center; align-items: center; border-radius: 0px 0px 30px 30px; margin: auto;}
+
+.js_line {width: 100px; height: 5px; background: #ffffff80; border-radius: 5px; mix-blend-mode: difference;}
+
+.js_uppericons {padding: 0px 5px; margin-top: -20px; margin-bottom: 20px; font-size: 10px; display: flex; justify-content: flex-end; align-items: center;}
+
+.js_uppericons span {margin-left: 5px;}
+    
+.js_lock {text-align: center; font-size: 20px;}
+    
+.js_clockdate {height: 100px; font-size: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 10px auto;  line-height: 250%;}
+.js_clockdate span {font-weight: 100; letter-spacing: 3px; font-size: 60px;}
+    
+.js_notifs {flex: 1; overflow: scroll; margin: 0px 10px 0px 14px;}
+
+.js_messagetype {display: flex; flex-flow: row nowrap;}
+
+.js_timestamp1 {margin-left: auto;}
+
+.js_notif1 {background-color: rgba(255,255,255,0.5); margin-bottom: 5px; padding: 10px; border-radius: 10px; font-size: 12px; backdrop-filter: blur(3px); color: #000; }
+
+.js_unlock {text-align: center; color: var(--jstext); font-size: 10px; margin-bottom: 10px;}

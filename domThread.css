@@ -1,0 +1,21 @@
+.domimg {background-size: cover; background-position: center;}
+
+.domside {flex: 0 0 150px; mix-blend-mode: var(--blendmode); opacity: 0.9;}
+
+.domrec {height: 200px; mix-blend-mode: var(--blendmode); opacity: 0.7;}
+
+.domcirc {height: 130px; width: 130px; border-radius: 50%; margin: 30px auto; mix-blend-mode: var(--blendmode); opacity: 0.7; border: 10px solid #eee;}
+
+.domCont {margin: auto; width: 400px; background-image: linear-gradient(to bottom right, rgba(var(--domAccent), 0.1), rgba(var(--domAccent), 0.7)); border: 1px solid #d8d8d8; box-shadow: 3px 3px 4px #d0d0d0; box-sizing: border-box;}
+
+.domIcon {margin-bottom: 50px; text-align: center; color: #ffffff80; font-size: 20px; text-shadow: 1px 1px 5px #ffffff50;}
+
+.domTitle {color: rgb(var(--domAccent)); font-family: var(--mainFont); font-size: 12px; font-weight: 500; padding-bottom: 5px; border-bottom: 1px solid #ffffff50; text-transform: uppercase; margin-bottom: 15px;}
+
+.domBody {text-align: justify; font-family: Arial, sans-serif; font-size: 12px; padding: 30px; color: #00000090}
+
+.domBody b {font-size: 13px; color: rgba(var(--domAccent)); text-shadow: 0px 0px 3px #ffffff50;}
+
+.domBody em {font-size: 13px; color: rgba(var(--domAccent)); text-shadow: 0px 0px 3px #ffffff50;}
+
+.domBody a {background-color: #ffffff50; padding: 5px; color: rgba(var(--domAccent),0.5); text-decoration: none; text-transform: uppercase; font-weight: 500; font-size: 7px; font-family: var(--mainFont);}

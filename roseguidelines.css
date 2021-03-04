@@ -1,0 +1,73 @@
+#roseguide {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
+  background-blend-mode: multiply;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  color: #736d7d;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+#roseguide .roseguide-in {
+  background-color: #ffffff90;
+  padding: 20px;
+  border: 1px solid #ffffff70;
+}
+
+#roseguide .roseguide-in span {
+display: inline-block;
+  font-family: monospace;
+  color: #534e5a;
+  background-color: #ffffff;
+  padding: 3px;
+}
+
+#roseguide p:last-child {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#roseguide .rosetitle {
+  font-family: Space Mono, monospace;
+  font-size: 20px;
+  text-transform: lowercase;
+  border-bottom: 5px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+#roseguide ol {
+  list-style: none;
+  counter-reset: rose-counter;
+}
+
+#roseguide ol li {
+  counter-increment: rose-counter;
+  font-size: 10px;
+  padding: 0 0 0 0.5em;
+  margin-bottom: 5px;
+}
+
+#roseguide ol li::before {
+  content: "0" counter(rose-counter);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Space Mono, monospace;
+  color: #534e5a;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  direction: rtl;
+}
