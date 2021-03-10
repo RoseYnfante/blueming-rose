@@ -136,16 +136,15 @@ padding: 30px;
 border: 1px solid var(--borders);
 padding: 10px;
 font: 400 13px var(--body-font);
-line-height: 160%;
 text-align: justify;
 color: var(--borders);
+line-height: 165%;
 }
 
 .cantlivewithoutyou-text a, .cantlivewithoutyou-text b, .cantlivewithoutyou-text i {
 background: var(--accent-color);
 font-size: 14px;
 padding: 2px 3px;
-line-height: 165%;
 }
 
 .cantlivewithoutyou-text b {
