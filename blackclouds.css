@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: 'Brutel Black';
+    src: url('https://files.jcink.net/uploads2/glitchmodenctd/brutel_black_webfont.woff2') format('woff2'),
+         url('https://files.jcink.net/uploads2/glitchmodenctd/brutel_black_webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blackclouds-cont {
+  position: relative;
+  max-width: 550px;
+  margin: 20px auto;
+  border: 1px solid rgb(var(--accent1) / .3);
+  font-family: var(--bodyfont);
+  background: rgb(var(--back));
+  padding: 30px;
+  box-sizing: border-box;
+  color: rgb(var(--dark1));
+}
+
+thecreds {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+}
+
+thecreds a {
+  text-decoration: none;
+  font: 0.7rem var(--headerfont);
+  text-transform: uppercase;
+}
+
+article {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+article:last-child {
+  margin-bottom: 0px;
+}
+
+.rel-head {
+  width: 100px;
+  background: rgb(var(--accent1));
+  color: rgb(var(--light1));
+  padding: 10px;
+  text-transform: uppercase;
+  font: 0.8rem var(--headerfont);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rel-body {
+  flex: 1;
+}
+
+toptitle {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font: 2rem var(--headerfont);
+  color: rgb(var(--accent1));
+}
+
+.rainlike {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.rainlike:last-child {
+  margin-bottom: 0px;
+}
+
+.rainlike-img {
+  height: 120px;
+  width: 60px;
+  padding: 5px;
+  border-radius: 999em;
+  border: 1px solid rgb(var(--dark1) / .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.rainlike-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 999em;
+}
+
+.raingray {
+  filter: grayscale(1);
+}
+
+.rainlike-body {
+  flex: 1;
+}
+
+.upinmyhead {
+  position: relative;
+  font: 1rem var(--headerfont);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.upinmyhead:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: rgb(var(--accent1) / .3);
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+}
+
+.upinmyhead-body {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .blackclouds-cont {
+  margin: auto;
+}
+  
+  article {
+  display: block;
+  margin-bottom: 40px;
+}
+
+article:last-child {
+  margin-bottom: 0px;
+}
+  .rel-head {
+  width: 100px;
+  background: rgb(var(--accent1));
+  color: rgb(var(--light1));
+  padding: 10px;
+  text-transform: uppercase;
+  font: 0.8rem var(--headerfont);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  .rainlike {
+  display: block;
+  margin-bottom: 50px;
+}
+  .rainlike-img {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+  border: 1px solid rgb(var(--dark1) / .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.rainlike-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+}
